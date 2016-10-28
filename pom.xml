@@ -257,13 +257,6 @@
             <version>${velocity-tools.version}</version>
         </dependency>
         <!-- velocity end -->
-        <!-- uic beigin -->
-        <dependency>
-            <groupId>com.baidu.uic</groupId>
-            <artifactId>uic-client</artifactId>
-            <version>${uic.version}</version>
-        </dependency>
-        <!-- uic end -->
         <!-- junit start -->
         <dependency>
             <groupId>junit</groupId>
@@ -299,34 +292,6 @@
             </exclusions>
         </dependency>
 
-        <!-- bcs driver -->
-        <dependency>
-            <groupId>com.baidu.inf</groupId>
-            <artifactId>bcs-sdk</artifactId>
-            <version>1.4.0</version>
-            <type>jar</type>
-            <scope>compile</scope>
-        </dependency>
-        <!-- bos sdk 将sdk自带的日志干掉  -->
-        <dependency>
-            <groupId>com.baidubce</groupId>
-            <artifactId>bce-java-sdk</artifactId>
-            <version>0.9.3</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>ch.qos.logback</groupId>
-                    <artifactId>logback-classic</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>ch.qos.logback</groupId>
-                    <artifactId>logback-core</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.slf4j</groupId>
-                    <artifactId>jcl-over-slf4j</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
         <dependency>
             <!-- jsoup HTML parser library @ http://jsoup.org/ -->
             <groupId>org.jsoup</groupId>
